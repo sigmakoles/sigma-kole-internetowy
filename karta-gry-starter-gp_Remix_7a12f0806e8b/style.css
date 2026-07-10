@@ -1,0 +1,63 @@
+/*dodaj czcionkę ze strony google fonts*/
+
+
+
+/*dla elementu body zastosuj wybraną czcionkę*/
+
+
+
+
+/*odwołaj się do klasy kontener*/
+
+  
+          /*ustawiamy kontener jako flexbox*/
+          /*jeśli elementy nie będą się mieścić w jednym wierszu zostaną przeniesione*/
+          /*wyjustowanie elementów względem kontenera */
+
+
+
+
+
+
+/*odwołaj się do klasy karta*/
+
+
+          /*margines z każdej stron-20px */
+          /*szerokość-300px */
+          /*wysokość-430px */
+          /*zastosuj wybrany gradient dla karty  https://uigradients.com/#Anwar*/
+  
+  
+         /*zaokrąglenie rogów karty ustaw-15px 15px 0px 0px*/
+         /*ustaw wyśrodkowanie tekstu */
+
+
+
+
+/*dla paragrafu dodaj wypełnienie na 5 px*/
+
+
+
+/*odwołaj się do diva w którym wyświetlisz obrazek z gry jak tło */
+
+
+
+        /*zaokrąglenie rogów karty ustaw-15px 15px 0px 0px*/ 
+        /*ustaw szerokość na 100%*/
+        /*ustaw wysokość na 170px;*/
+        /*ustaw aby zdjęcie na tło obrazkowe odpowiednio się skalowało */
+        /*ustaw margines z dołu na 10px*/
+ 
+
+
+
+/*odwołaj się do diva w którym wyświetlisz obrazek z gry jak tło  i ustaw konkretny obrazek na tło*/
+
+
+/*sformatuj przycisk według własnego pomysłu*/
+
+
+
+/*stwórz efekt po najechaniu kursorem myszki na przycisk*/
+ 
+

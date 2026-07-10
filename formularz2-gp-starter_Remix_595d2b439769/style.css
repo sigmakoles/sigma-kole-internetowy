@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Open+Sans&display=swap');
+
+body{
+  
+background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat:no-repeat;
+ 
+font-family: 'Balsamiq Sans', cursive;
+}
+
+form,input,textarea,select{
+  
+  font-size:20px;
+  
+}
+
+h1{
+  
+    font-size:40px;
+  letter-spacing:5px;
+}
+
+input{
+ width:400px;
+  padding:10px;
+  border-radius:4px;
+  border:2px solid #454343;
+}
+
+.shadow:focus{
+  
+  box-shadow: 10px 10px 5px #b8b4b4;/*cień dla pudełka pierwsza wartość to horyzontalny cień drugi wertykalny trzecia wartość to rozmazanie-blur oraz kolor*/
+}
+
+
+legend{
+  
+  font-size:30px;
+  color:#4a3f3e;
+}
+
+fieldset{
+ 
+  margin-top:20px;
+  margin-bottom:30px;
+  width:420px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 8px double #f55549;
+  background-color:#f7f3f2;
+  
+}
+
+textarea{
+  width: 400px;
+  font-size:20px;
+  resize: none;/*blokujemy możliwość zmiany wielkości przez użytkownika*/
+
+}
+
+label{
+  display:block;/*dodajemy żeby można było ustawić marginesy*/
+  margin-top:10px;
+  margin-bottom:3px;
+}
+
+
+#btnSubmit{
+  background-color:#65e67a;
+  padding:15px;
+  border:none;
+  border-radius:8px;
+  font-size:20px;
+  font-family: 'Balsamiq Sans', cursive;
+  width:250px;
+  color:white;
+  transition-duration:0.5s;
+background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#btnSubmit:hover{
+  opacity:0.8;
+  cursor:pointer;
+  color:#191919;
+
+  
+  
+}
+

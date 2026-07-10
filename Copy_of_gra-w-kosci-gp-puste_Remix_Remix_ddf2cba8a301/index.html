@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Gra w kości</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer=""></script>
+
+    <link rel="icon" href="kosc6.png">
+    
+  </head>
+  <body>
+    <h1>Zasady są na dole</h1>
+   
+    <div class="pole-gry clearfix">
+      <div class="gracz-0-panel aktywny">
+        <div class="nazwa-gracza" id="nazwa-0">Gracz 1</div>
+        <div class="wynik-gracza" id="wynik-0">0</div>
+        <div class="gracz-aktualne-pudelko">
+          <div class="etykietka-gracza">Aktualne punkty</div>
+          <div class="wynik-gracza" id="aktualne-punkty-0">0</div>
+        </div>
+      </div>
+
+      <div class="gracz-1-panel" >
+        <div class="nazwa-gracza" id="nazwa-1">Gracz 2</div>
+        <div class="wynik-gracza" id="wynik-1">0</div>
+        <div class="gracz-aktualne-pudelko">
+          <div class="etykietka-gracza">Aktualne punkty</div>
+          <div class="wynik-gracza" id="aktualne-punkty-1">0</div>
+        </div>
+      </div>
+
+      <button class="btn-nowa-gra">Nowa gra</button>
+      <input id='wartosc' type='number' min='1' max='1000000000' class='punkty-max' placeholder='Podaj do ilu punktów gracie'>
+      <button class="btn-rzuc">Rzuć kością</button>
+      <button class="btn-zatrzymaj">Zatrzymaj punkty</button>
+
+    
+  
+      <img src="kosc6.png" class="kosc" style="display: none;"/>
+      
+    
+       
+    </div>
+
+    <h3>Na początku podaj do ilu punktów chcecie grać i kliknij nowa gra. Potem kliknij przycisk rzuć kością aby wylosować liczbę. Twoje aktualne punkty są na czerwonym tle. jeżeli wypadnie jedynka a ty nie nie zapiszesz punktów stracisz swoje aktualne punkty lecz gdy je zapiszesz to ich niestraczsz. Gdy wypadną dwie szustki podrząd to tracisz nawet zapisane punkty.</h3>
+    
+  </body>
+</html>

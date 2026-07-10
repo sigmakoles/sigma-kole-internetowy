@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+h3{
+  font-family:'Honk';
+}
+h1{
+  font-family:'Honk';
+}
+body {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  background: #c21500;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 20px;
+border: none;
+border-radius: 14px;
+transition-duration: 0.9s;
+}
+
+button:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.prubna{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  font-size: 50px;
+}

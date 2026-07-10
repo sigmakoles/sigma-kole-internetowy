@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Boss Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Boss Quiz</h1>
+    
+    <ul>
+      <li id="pytanie1">
+        <span>Pytanie 1</span>
+        <div class="pytanieKontener">
+          <img class="bossImg" src="alduin.png">
+          <input type="radio" name="odpowiedz1" id="p1-odp1" class="poprawna">
+          <label>Alduin</label><br>
+          <input type="radio" name="odpowiedz1" id="p1-odp2">
+          <label>Mehrunes Dagon</label><br>
+          <input type="radio" name="odpowiedz1" id="p1-odp3">
+          <label>Nazeem</label><br>
+        </div>
+      </li>
+      <li id="pytanie2">
+        <span>Pytanie 2</span>
+        <div class="pytanieKontener">
+          <img class="bossImg" src="eredin.png">
+          <input type="radio" name="odpowiedz2" id="p2-odp1">
+          <label>Lambert</label><br>
+          <input type="radio" name="odpowiedz2" id="p2-odp2" class="poprawna">
+          <label>Eredin</label><br>
+          <input type="radio" name="odpowiedz2" id="p2-odp3">
+          <label>Imlerith</label><br>
+        </div>
+      </li>
+      <li id="pytanie3">
+        <span>Pytanie 3</span>
+        <div class="pytanieKontener">
+          <img class="bossImg" src="ranrok.png">
+          <input type="radio" name="odpowiedz3" id="p3-odp1">
+          <label>Belgruff</label><br>
+          <input type="radio" name="odpowiedz3" id="p3-odp2" class="poprawna">
+          <label>Ranrok</label><br>
+          <input type="radio" name="odpowiedz3" id="p3-odp3">
+          <label>Gornak</label><br>
+        </div>
+      </li>
+    </ul>
+    <button id="sprawdz">
+      Sprawdź odpowiedzi
+    </button>
+    <h3 id="wynik"></h3>
+  </body>
+  
+</html>

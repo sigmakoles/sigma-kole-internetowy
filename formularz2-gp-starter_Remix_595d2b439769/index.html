@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Formularze</title>
+
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- import the webpage's javascript file -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <form action="https://formsubmit.co/michal.machnik@sp159krk.pl" method="POST" enctype="multipart/form-data">
+  <fieldset>
+    <legend>Dane użytkownika</legend>
+    <label for='nazwaUzytkownika'>Nazwa Użytkownika</label>
+    
+<input class='shadow' type='text' maxlength='20' placeholder='Podaj nazwę użytkownika' id='nazwaUzytkownika' name ='nazwa_uzytkownika'>
+    
+    <label>Hasło</label>
+    <input class='shadow' type='password' required>
+    
+    <label>E-mail</label>
+    <input class='shadow' type='email' name='email' required>
+    
+    <label>Data urodzenia</label>
+    <input class='shadow' type='date' name='data_urodzenia' required>
+    
+    <label>Wiek</label>
+    <input class='shadow' type='number' min='1' max='120' name='wiek'>
+    
+    <label>Telefon</label>
+    <input class="shadow" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="xxx-xxx-xxx" maxlength="11" name="telefon">
+    </fieldset>
+    <fieldset>
+    <label>Uwagi</label>
+    
+    <textarea class="shadow" id="uwagi" rows="10" cols="40" placeholder="Twoje uwagi..." name="uwagi"></textarea>
+    
+    <label>Płeć</label>
+    <input style='width:20px;' type='radio' name='pleć' value='Mężczyzna'>Męczyzna
+    <input style='width:20px;' type='radio' name='pleć' value='Kobieta'>Kobieta
+    <input style='width:20px;' type='radio' name='pleć' value='NieChce'>Nie chcę podawać
+      
+<label>Kraj pochodzenia</label>
+    <select name="kraj">
+      <option value="Polska">Polska</option>
+      <option value="Niemcy">Niemcy</option>
+      <option value="Francja">Francja</option>
+      <option value="Hiszpania">Hiszpania</option>
+    </select>
+    
+    <label>Prześlij zdjęcie</label>
+    <input type='file' name='zalacznik' accept='image/png, image/jpeg'>
+    <br>
+    <input type='checkbox' style='width: 20px;' checked='checked'> Akceptuję
+    <br>
+    <input id='btnSubmit' type='submit' value='Prześlij'>
+    </fieldset>
+  </form>
+  
+
+
+
+</body>
+
+</html>
